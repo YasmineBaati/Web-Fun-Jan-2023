@@ -1,6 +1,6 @@
 for i in range(0, 151):
     print(i)
-for i in range(0,1001,5):
+for i in range(5,1001,5):
     print(i)
 def counting_the_dojo_way():
     for i in range(1, 101):
