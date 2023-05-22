@@ -53,7 +53,7 @@ print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_i
 
 def number_of_food_groups():
     return 5
-print(number_of_food_groups())sss
+print(number_of_food_groups())
 
 
 #10
