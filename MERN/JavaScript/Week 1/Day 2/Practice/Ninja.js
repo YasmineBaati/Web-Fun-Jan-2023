@@ -1,17 +1,20 @@
 class Ninja {
-    constructor(name,health,speed=3,strength=3) {
+    constructor(name,health) {
         this.name = name
         this.health= health
-        this.speed=speed
-        this.strength=strength
+        this.speed=3
+        this.strength=3
     }
     sayName(){
         console.log('My name is ${this.name}');
+        return this;
     }
     showStates(){
-        console.log('Name:${this.name},Strength:${this.strangth},Speed: ${this.speed}, Health: ${this.health}');   
+        console.log('Name:${this.name},Strength:${this.strangth},Speed: ${this.speed}, Health: ${this.health}'); 
+        return this;  
     }
     drinkSake(){
         console.log('Health: $(this.health=+10)');
+        return this;  
     }
 }
