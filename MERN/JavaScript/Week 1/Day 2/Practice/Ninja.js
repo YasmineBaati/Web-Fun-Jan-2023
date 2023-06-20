@@ -14,7 +14,8 @@ class Ninja {
         return this;  
     }
     drinkSake(){
-        console.log('Health: $(this.health=+10)');
+        this.health=+10
+        console.log('Health: $(this.health)');
         return this;  
     }
 }
